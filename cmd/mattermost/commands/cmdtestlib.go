@@ -88,6 +88,7 @@ func (h *testHelper) SetConfig(config *model.Config) {
 	*config.PasswordSettings.Uppercase = false
 	*config.PasswordSettings.Symbol = false
 	*config.PasswordSettings.Number = false
+	*config.PluginSettings.EnableHealthCheck = false
 
 	h.config = config
 
